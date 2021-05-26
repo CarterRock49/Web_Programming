@@ -1,0 +1,52 @@
+<CATALOG>
+<CD>
+<Part>Motherboard</Part>
+<COMPANY>Msi, Asus, ASRock, Intel</COMPANY>
+<PRICE>100.00</PRICE>
+</CD>
+<CD>
+<Part>Harddrive</Part>
+<COMPANY>Western Digital, Seagate</COMPANY>
+<PRICE>50.00</PRICE>
+</CD>
+<CD>
+<Part>CPU</Part>
+<COMPANY>AMD, Intel</COMPANY>
+<PRICE>300.00</PRICE>
+</CD>
+<CD>
+<Part>GPU</Part>
+<COMPANY>Nvidia, AMD</COMPANY>
+<PRICE>330.00</PRICE>
+</CD>
+<CD>
+<Part>RAM</Part>
+<COMPANY>Corsair, G.Skill, Kingston</COMPANY>
+<PRICE>50.00</PRICE>
+</CD>
+<CD>
+<Part>CASE</Part>
+<COMPANY>Corsair, NZXT</COMPANY>
+<PRICE>75.00</PRICE>
+</CD>
+<CD>
+<Part>Power Supply</Part>
+<COMPANY>EVGA, Corsair, Antec</COMPANY>
+<PRICE>50.00</PRICE>
+</CD>
+<CD>
+<Part>SSD</Part>
+<COMPANY>Dell, Samsung, Western Digital</COMPANY>
+<PRICE>100.00</PRICE>
+</CD>
+<CD>
+<Part>Fans</Part>
+<COMPANY>Corsair</COMPANY>
+<PRICE>15.00</PRICE>
+</CD>
+<CD>
+<Part>OS Key</Part>
+<COMPANY>Microsoft</COMPANY>
+<PRICE>100.00</PRICE>
+</CD>
+</CATALOG>

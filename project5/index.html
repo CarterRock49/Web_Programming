@@ -1,0 +1,168 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Home</title>
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script src="js/modernizr.custom.05819.js"></script>
+  <meta name="description" content="The purpose of this website is to inform the reader about how computers are built and point them in the right direction to build a computer." />
+  <meta name="robots" content="index, follow">
+
+</head>
+
+<body onLoad="setToday()">
+  <div id="main">
+    <header>
+	  <div id="welcome">
+	    <h2>Computer Building</h2>
+	  </div><!--close welcome-->			  	
+	</header>
+	
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li class="current"><a href="index.html">Home</a></li>
+		  <li><a href="rules.html">Rules</a></li>
+          <li><a href="page1.html">Page 1: Parts</a></li>
+          <li><a href="page2.html">Page 2: Building</a></li>
+          <li><a href="page3.html">Page 3: Contact</a></li>
+		  <li><a href="https://www.emailmeform.com/builder/form/k9NaarIPM38Ohfc3lvAE">Submit</a></li>
+          <li><a href="../../home.htm">Homepage</a></li>
+        </ul>
+      </div><!--close menubar-->	
+    </nav>	
+    
+	<div id="site_content">		
+
+      <div>
+		<img width="940" height="600" src="images/StockComp.jpg" alt="Finished Example" Title="Finished Example"/>
+	  </div>
+	
+	  <div class="sidebar_container">       
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Computer Building</h2>
+            <p>Welcome this website was created with the purpose to inform readers about computer building.</p>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->     		
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Project Started</h2>
+            <h3>4/4/2021</h3>
+            <p>Project is due 4/4/2021</p>         
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+		<div class="sidebar">
+          <div class="sidebar_item">
+			<h2>Expected Project End </h2>
+            <h3>4/4/2021</h3>
+            <p>Project is expected to finish before set due date.</p>		
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  		
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: <a href = "mailto:carterrock49@gmail.com">carterrock49@gmail.com</a></p>
+			<!-- AddToAny BEGIN -->
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+			<a class="a2a_button_facebook"></a>
+			<a class="a2a_button_twitter"></a>
+			<a class="a2a_button_tumblr"></a>
+			<a class="a2a_button_pinterest"></a>
+			</div>
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+			<!-- AddToAny END -->
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+       </div><!--close sidebar_container-->	
+	
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Introduction</h1></h1> 
+			<p>There are many reasons why you might want to build your own computer. One might be that you want to save some money for get the most bang for your buck. Another reason is that you plan on using you computer very often and want something more tailored to you. Either way building a computer can be very beneficial not only for the reasons above but also to get a greater understanding of computers and the components that are within. Either way this general guide with help you to gain a far better understanding of how computers work and what you need to do to build one.</p>   				  
+
+			<p>The topics I will be going over include the components of a computer on page one and how those can affect the computer itself and things you need to be careful of including common mistakes. On the second page for actually putting it together I give the reader some resources they can use to learn and some helpful tips for that. Additionally, there is a video on page two that goes over the important aspects of building a computer On the final page I go over what comes after the computer and things that are related to computers that can improve your experience.</p>
+			
+			<p>Please enter any prior knowledge of computers in the section below. By checking the parts you a familiar with if any and filling out the other boxes.</p>
+			<form>
+			<table style="border:3px solid #000;">
+				<tr>
+					<td>Most well known part:<input type="text" id="text1"></td>
+				</tr>
+				<tr>
+					<td>CPU <input type="checkbox" id="parts1"/> GPU<input type="checkbox" id="parts2"/> Harddrive<input type="checkbox" id="parts3"/> Motherboard<input type="checkbox" id="parts4"/>  </td>
+				</tr>
+				<tr>
+					<td>ComputerCases<input type="checkbox" id="parts5"/> PowerSupply<input type="checkbox" id="parts6"/> RAM<input type="checkbox" id="parts7"/></td>
+				</tr>
+				<tr>
+					<td>None<input type="checkbox" id="none"/> </td>
+				</tr>
+				<tr>
+					<td><textarea rows="6" cols="40" name = "description" id="text2">Enter any prior info known about computer building!!!</textarea></td>
+				</tr>
+				<tr>
+					<td><input id="submit" type="submit" value="submit" /><input type="Reset" id="Reset" value="Reset"/></td>
+				</tr>
+			</table>
+			</form>
+		</div><!--close content_item-->
+      </div><!--close content-->
+	
+	</div><!--close site_content-->
+	<script>
+	// b.Program validation for your form ensuring that users enter values or make selections in all fields. You must use JavaScript for validation
+	function secondform(){
+		try {
+		var text1 = document.getElementById("text1");
+		var text2 = document.getElementById("text2");
+		var parts1 = document.getElementById("parts1");
+	    var parts2 = document.getElementById("parts2");
+	    var parts3 = document.getElementById("parts3");
+	    var parts4 = document.getElementById("parts4");
+	    var parts5 = document.getElementById("parts5");
+	    var parts6 = document.getElementById("parts6");
+		var parts7 = document.getElementById("parts7");
+		var none = document.getElementById("none");
+		// expection handling
+	    if (text1.value === "" || text2.value === "Enter any prior info known about computer building!!!"){
+			throw "Please favorite part, what you know in the text box, and select a checkbox.";
+			}
+		else if (parts1.checked === false && parts2.checked === false && parts3.checked === false && parts4.checked === false && parts5.checked === false && parts6.checked === false && parts7.checked === false &&  none.checked === false){
+			throw "Please favorite part, what you know in the text box, and select a checkbox.";
+			}
+	   }
+	   catch(lNamenumError){
+			window.alert(lNamenumError)
+			return false;
+	   }
+	}
+	// c.Program validation for at least one other aspect of at least oneof the fields in your form. For example, if you have a phone number text field, ensure that the user enters numbers into the field and not text strings.
+	function secondform2(){
+		try {
+		var text1 = document.getElementById("text1");
+		if (text1.value != "CPU" && text1.value != "GPU" && text1.value != "None" && text1.value != "PowerSupply" && text1.value != "ComputerCases" && text1.value != "Harddrive" && text1.value != "RAM" && text1.value != "Motherboard"){
+			throw "Please enter one of the list parts into the first prompt.";
+			}
+		}
+		catch(err){
+			window.alert(err)
+			return false;
+	   }
+	}
+	document.getElementById("submit").addEventListener("click", secondform2, false);
+	document.getElementById("submit").addEventListener("click", secondform, false);
+	</script>
+    <footer>
+	<p id="validation">
+	<a href="http://validator.w3.org/check?uri=referer" title="HTML5 Validation">HTML5 Validation</a></p>
+	<script src="js/footer.js"></script><br/><br/>
+    </footer> 
+  
+  </div><!--close main-->
+</body>
+</html>
